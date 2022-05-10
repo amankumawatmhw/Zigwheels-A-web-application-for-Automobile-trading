@@ -1,0 +1,270 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color:#3fa78a;
+    color: black;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80px;
+}
+.logo {
+    flex-basis: 30%;
+    text-align: center;
+    color: white;
+    padding-bottom: 25px;
+}
+.menu{
+    flex-basis: 70%;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.menu ul li{
+    list-style: none;
+    margin: 15px;
+    font-size: 20px;
+    color: white ;
+    padding: 3px;
+}
+.menu ul li a {
+    display: block;
+    color: inherit;
+    padding: 10px;
+    transition: all 2ms;
+    border-radius: 0.2em;
+}
+.menu ul li a:hover{
+   background-color: rgb(223, 143, 143);
+   
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+.cover{
+    background-image: url("img/mercedes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center; 
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.cover input[type="text"]{
+    width: 30%;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.cover input[type="button"]{
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+.car-view {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    flex-basis: 25%;
+    text-align: center;
+    margin-top: 15px;
+}
+.item img{
+    width: 80%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+.productDetails-main{
+    display: flex;
+    margin-top: 10px
+}
+.productImage{
+    flex-basis: 50%;
+}
+.productImage img{
+    width: 70%;
+}
+.productDetails{
+   flex-basis: 50%;
+}
+.productDetail input[type="submit"]{
+    background-color: coral;
+    padding: 8px;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+.productDetail input[type="submit"]:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+
+}
+.productDetail-other {
+    margin-top: 10px;
+}
+.gap{
+    clear: both;
+    margin-top: 15px;
+}
+.login-main{
+    margin-top: 30px;
+    display: inline-block;
+    width: 500px;
+    border: 2px solid gray;
+    padding: 20px;
+}
+.login-main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: lightgreen;
+    padding: 6px;
+}
+.form-row{
+margin-top: 8px;
+margin-bottom: 12px;
+}
+.form-row label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.form-row input[type="text"]{
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3px;
+    border-radius: 3px;
+}
+.form-row input[type="password"]{
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3px;
+    border-radius: 3px;
+}
+.form-row input[type="submit"]{
+    background-color: lightslategray;
+    padding: 10px;
+    font-size: 20px;
+}
+.form-row input[type="reset"]{
+    background-color: lightslategray;
+    padding: 10px;
+    font-size: 20px;
+}
+.text-center{
+    text-align: center;
+}
+/* .form-row input[type='submit']:hover{
+    background-color: white;
+    cursor: pointer;
+} */
+.form-element{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3px;
+    border-radius: 3px ;
+    border-color: black;
+}
+.signup-main{
+    flex-basis: 60%;
+    margin-top: 10px;
+}
+.signup-main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(175, 241, 175);
+    padding: 6px;
+}
+.signup-wrapper{
+    display: flex;
+}
+.signup-image{
+    flex-basis: 40%;
+    margin-left: 25px;
+}
+.car-image{
+    border: 2px solid black;
+    height: 230px;
+    width: 200px;
+}
+.contactusWrapper{
+    display: flex;
+    margin-top: 20px;
+}
+.contactUsMap{
+    flex-basis: 60%;
+}
+.contactUsAddress{
+    font-family: Arial, Helvetica, sans-serif;
+    flex-basis: 40%;  
+}
+.contactUsForm{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+}
+.admin-wrapper{
+    display: flex;
+}
+.admin-sidebar{
+    flex-basis: 20%;
+    background-color: #739cb3;
+    height: 100vh;
+}
+.admin-sidebar ul{
+    list-style: none;
+}
+.admin-sidebar ul li{
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+.admin-sidebar ul li a{
+    text-decoration: none;
+    display: block;
+    transition: all 0.5ms;
+}
+.admin-sidebar ul li a:hover{
+    background-color: rgb(138, 66, 66);
+    color: wheat;
+}
+.admin-maincontent{
+    flex-basis: 80%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(78, 92, 100);
+}
+.admin-maincontent h1{
+    text-align: center;
+    columns:  wheat;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.admin-form{
+    width: 50%;
+}
+.admin-table{
+    margin-top: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.admin-table table{
+    color: blue;    
+}
+.admin-table table{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}

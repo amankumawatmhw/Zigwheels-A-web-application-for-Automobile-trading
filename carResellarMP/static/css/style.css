@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.bg-dark{
+    background-color: brown;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.container{
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.empty-section{
+    height: 30px;
+    width: 20px;
+    
+    background-color: darkblue;
+}
